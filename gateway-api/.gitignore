@@ -1,0 +1,19 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+*.pem
+*.log
+*.exe
+*.exe~
+*.dll
+
+# env files (can opt-in for committing if needed)
+.env*
+# allow only .env.example 
+!.env.example
+
+
