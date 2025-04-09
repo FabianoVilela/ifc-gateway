@@ -1,0 +1,24 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.biome": "explicit",
+    "quickfix.biome": "explicit", // Added to format on save TailwindCSS
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  }
+}
