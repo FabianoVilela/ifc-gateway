@@ -25,6 +25,11 @@ export function middleware(request: NextRequest) {
 
     return NextResponse.redirect(redirectUrl);
   }
+
+  // NOTE: If the user is authenticated and trying to access a public route, redirect them to the home page
+  if (apiKey && publicRoute) {
+    return NextResponse.next();
+  }
 }
 
 export const config: MiddlewareConfig = {
