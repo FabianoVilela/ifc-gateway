@@ -34,7 +34,7 @@ export default async function InvoiceDetail({ params }: InvoiceDetailProps) {
       </CardHeader>
       <CardContent className='grid grid-cols-1 gap-6 py-4 md:grid-cols-2'>
         {/* Invoice information */}
-        <Card>
+        <Card className="shadow-none">
           <CardHeader className="flex justify-between">
             <CardTitle className='font-bold'>Informação da fatura</CardTitle>
           </CardHeader>
@@ -69,7 +69,7 @@ export default async function InvoiceDetail({ params }: InvoiceDetailProps) {
           </CardContent>
         </Card>
         {/* Transaction status */}
-        <Card>
+        <Card className="shadow-none">
           <CardHeader className="flex justify-between">
             <CardTitle className='font-bold'>Status da transação</CardTitle>
           </CardHeader>
@@ -97,7 +97,7 @@ export default async function InvoiceDetail({ params }: InvoiceDetailProps) {
           </CardContent>
         </Card>
         {/* Payment methods */}
-        <Card>
+        <Card className="shadow-none">
           <CardHeader className="flex justify-between">
             <CardTitle className='font-bold'>Método de Pagamento</CardTitle>
           </CardHeader>
@@ -129,7 +129,7 @@ export default async function InvoiceDetail({ params }: InvoiceDetailProps) {
           </CardContent>
         </Card>
         {/* Additional data */}
-        <Card>
+        <Card className="shadow-none">
           <CardHeader className="flex justify-between">
             <CardTitle className='font-bold'>Dados adicionais</CardTitle>
           </CardHeader>
